@@ -52,3 +52,14 @@ body {
   input[type="button"]:last-child {
     margin-right: 0;
   }
+
+  /* Asigna colores distintos a las operaciones */
+  input[type="button"][value="+"],
+  input[type="button"][value="*"] {
+      color: red;
+  }
+  
+  input[type="button"][value="-"],
+  input[type="button"][value="/"] {
+      color: blue;
+  }
